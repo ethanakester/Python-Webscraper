@@ -111,8 +111,7 @@ for city in cities:
                 # Writes the employee info to the excel sheets and returns the
                 # updated row counter
                 row_counter = employee_info_update(row_counter, employee_list,
-                                                   browser, workbook,
-                                                   worksheet)
+                                                   browser, worksheet)
 
                 # Moves the row counter down in the excel sheet to make the
                 # sheet more readable
